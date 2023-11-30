@@ -1,5 +1,7 @@
-{% extends 'base.html' %} {% block content %}
-<h1>{% block title %} Welcome to FlaskBlog {% endblock %}</h1>
+{% extends 'base.html' %}
+{% block content %}
+{% if current_user.is_authenticated %}
+<h1>Welcome to FlaskBlog</h1>
 {% for post in posts %}
 <a href="{{ url_for('post', post_id=post['id']) }}">
   <h2>{{ post['title'] }}</h2>
@@ -9,4 +11,16 @@
   <span class="badge badge-warning">Edit</span>
 </a>
 <hr />
-{% endfor %} {% endblock %}
+{% endfor %}
+{% else %}
+{% set next_url = url_for('login') %}
+{% set redirect_url = url_for('login') %}
+<script>
+  function redirect() {
+    window.location.href = "{{ redirect_url }}";
+  }
+  setTimeout(redirect, 3000);  // Redirect after 3 seconds
+</script>
+<h1>You are not logged in. Redirecting to login page...</h1>
+{% endif %}
+{% endblock %}
