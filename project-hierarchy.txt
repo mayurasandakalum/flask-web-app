@@ -1,0 +1,141 @@
+flask_blog
+├─ .git
+│  ├─ COMMIT_EDITMSG
+│  ├─ config
+│  ├─ description
+│  ├─ FETCH_HEAD
+│  ├─ HEAD
+│  ├─ hooks
+│  │  ├─ applypatch-msg.sample
+│  │  ├─ commit-msg.sample
+│  │  ├─ fsmonitor-watchman.sample
+│  │  ├─ post-update.sample
+│  │  ├─ pre-applypatch.sample
+│  │  ├─ pre-commit.sample
+│  │  ├─ pre-merge-commit.sample
+│  │  ├─ pre-push.sample
+│  │  ├─ pre-rebase.sample
+│  │  ├─ pre-receive.sample
+│  │  ├─ prepare-commit-msg.sample
+│  │  ├─ push-to-checkout.sample
+│  │  ├─ sendemail-validate.sample
+│  │  └─ update.sample
+│  ├─ index
+│  ├─ info
+│  │  └─ exclude
+│  ├─ logs
+│  │  ├─ HEAD
+│  │  └─ refs
+│  │     ├─ heads
+│  │     │  └─ main
+│  │     └─ remotes
+│  │        └─ flask-web-app
+│  │           └─ main
+│  ├─ objects
+│  │  ├─ 06
+│  │  │  └─ c23c2b5ee3a25c495e12e1621c220506a3610d
+│  │  ├─ 1b
+│  │  │  └─ 9eb7e6b3c4f3c0ada012435d58bb055391a75d
+│  │  ├─ 1c
+│  │  │  └─ 6f3a93bfa65d81c5e87df26e8c2d4dd352eaad
+│  │  ├─ 22
+│  │  │  ├─ 4b23cf6c22f8d8def224d17132122083fb9704
+│  │  │  └─ d256363d9366088b1191bc6dd546d7b7abff40
+│  │  ├─ 24
+│  │  │  └─ 4b8a07ac6973eca1fe7eb4d722552b17b889c5
+│  │  ├─ 25
+│  │  │  └─ 55324e45ceaf6e3ed39a88d4f59d8ce72bfc57
+│  │  ├─ 2c
+│  │  │  └─ 8486aab3b5af6a9d69f29783c6aae03ce80a3a
+│  │  ├─ 31
+│  │  │  └─ 60099e0281007ccd8ad5893a07b8ababe93b4c
+│  │  ├─ 35
+│  │  │  └─ 0323ecd2a101c68a7f1fc62c4877c3f48fcac0
+│  │  ├─ 37
+│  │  │  └─ 2fd0331415354a11e4aca9a37f9ab833422b74
+│  │  ├─ 39
+│  │  │  ├─ 236f2e049a6e48c2a84dd0b1485d7669b9431c
+│  │  │  └─ 9bd0a67e71cd23e7a7fc57045f8094fa8ea5fb
+│  │  ├─ 3a
+│  │  │  └─ a0c13779fb9565a13061261d10f359d1fe1f40
+│  │  ├─ 4f
+│  │  │  └─ 5f52167b2264918d01497bab12741b7baba1ee
+│  │  ├─ 57
+│  │  │  └─ 2a4b6beb4bd92fd6d1fde1ab59a514cedb4a4e
+│  │  ├─ 59
+│  │  │  ├─ e176f999af5b677b5181a0d26bbe569ab797ef
+│  │  │  └─ e18fc1f0da39b4a10481da16100b4bb01c3750
+│  │  ├─ 68
+│  │  │  └─ 6839a79fcf0fc424e06abf04767eed21c77aae
+│  │  ├─ 71
+│  │  │  └─ 5df0127bbfbeae0444da14de761e4a667f77d4
+│  │  ├─ 73
+│  │  │  └─ fa4f465dba7168fbe2530629deb71f89397089
+│  │  ├─ 78
+│  │  │  └─ 82ae551df4906a1e835389a283228c861380d2
+│  │  ├─ 7a
+│  │  │  └─ 9234ed95ef0ae6548ed850cba1d048c18241c8
+│  │  ├─ 7c
+│  │  │  └─ fee1aac87162045c6f801cc535380b4c14fadc
+│  │  ├─ 7f
+│  │  │  └─ d80e01e6399e3b9fdf5dcbc431d9eda085c2fd
+│  │  ├─ 8c
+│  │  │  └─ fc3b147dde432503e98ff519aa579ff83b2a9c
+│  │  ├─ 8e
+│  │  │  └─ e9ba6a90927dedfb216824ca7c0dc33566bd86
+│  │  ├─ 92
+│  │  │  └─ 05f8eaf8d6cf15cf4376840055e9894d1ddf7b
+│  │  ├─ 93
+│  │  │  └─ 63785c7796c170590f533882fc9e81166597a8
+│  │  ├─ 95
+│  │  │  └─ 4f2524b8260e38158c334edbd27292a13b0c89
+│  │  ├─ 9e
+│  │  │  └─ 2e4fbf8a0dd3be4b9639dfdf2b0733e8358cdd
+│  │  ├─ a4
+│  │  │  └─ 3362ba5fac202abb3e5ae9f7e94b985a9f824d
+│  │  ├─ b7
+│  │  │  └─ 88a0038f78a16efd92293dd28dc826a22d971c
+│  │  ├─ c0
+│  │  │  └─ 29b7fc53f051b90d6fc92c2cb2fa6dcb68df3a
+│  │  ├─ c1
+│  │  │  └─ 71e93dfc14ca43281810eef74ec0a054ea6f8e
+│  │  ├─ c3
+│  │  │  └─ 430bb0c73f004f7914955f12927a55e99fbbbd
+│  │  ├─ c5
+│  │  │  └─ 4442acc138d887bd862b1a2f309a0bfe0afaef
+│  │  ├─ cb
+│  │  │  └─ 72fa61b3d219b61cc21d02c772776fc4eaa491
+│  │  ├─ da
+│  │  │  └─ 4635e75c801566ad987af1bdc6cdf66cc942b5
+│  │  ├─ e6
+│  │  │  └─ 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│  │  ├─ ed
+│  │  │  └─ 1ff9af7c575891c263116aee6778190157f469
+│  │  ├─ f3
+│  │  │  └─ 3487af60eddb81d1c1aea6809a3801354a806a
+│  │  ├─ info
+│  │  └─ pack
+│  ├─ ORIG_HEAD
+│  └─ refs
+│     ├─ heads
+│     │  └─ main
+│     ├─ remotes
+│     │  └─ flask-web-app
+│     │     └─ main
+│     └─ tags
+├─ app.py
+├─ database.db
+├─ init_db.py
+├─ README.md
+├─ schema.sql
+├─ static
+│  └─ css
+│     └─ style.css
+├─ templates
+│  ├─ base.html
+│  ├─ create.html
+│  ├─ edit.html
+│  ├─ index.html
+│  └─ post.html
+└─ __pycache__
+   └─ app.cpython-311.pyc
