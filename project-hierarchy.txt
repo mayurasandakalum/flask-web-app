@@ -3,7 +3,7 @@ flask_blog
 │  ├─ COMMIT_EDITMSG
 │  ├─ config
 │  ├─ description
-│  ├─ FETCH_HEAD
+│  ├─ FETCH_HEA
 │  ├─ HEAD
 │  ├─ hooks
 │  │  ├─ applypatch-msg.sample
